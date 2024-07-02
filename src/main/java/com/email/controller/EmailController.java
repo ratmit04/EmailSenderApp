@@ -24,10 +24,6 @@ public class EmailController {
 	@Autowired
 	private EmailService emailService;
 
-	/*
-	 * public EmailController(EmailService emailService) { this.emailService =
-	 * emailService; }
-	 */
 
 	@PostMapping("/send")
 	public ResponseEntity<?> sendEmail(@ModelAttribute EmailRequest request) {
