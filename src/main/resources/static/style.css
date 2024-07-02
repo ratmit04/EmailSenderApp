@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 15px;
+}
+.a1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #393e46;
+  color: rgb(255, 255, 255);
+  border-radius: 13px;
+}
+.a2 {
+  border: 1px solid rgb(65, 66, 66);
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 10px;
+  font-weight: 700;
+}
+.a3 {
+  margin: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+input[type="submit"]:hover {
+  background-color: #237fb7;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+input[type="reset"]:hover {
+  background-color: rgb(209, 26, 42);
+  cursor: pointer;
+  color: aliceblue;
+}
